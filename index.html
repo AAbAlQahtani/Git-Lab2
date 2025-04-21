@@ -35,9 +35,26 @@
         </tr>
 
     </table>
+  </br>
+
     <form>
-      <label for="name"> Enter Yoor Name:</label>
-       <input type="text" id="name">
+      <fieldset>
+        <p>Enter Your data:</p>
+
+       <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+       <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+       <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+        <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required>
+
+      <input type="submit" value="Submit">
+      </fieldset>
 
     </form>
 
